@@ -1,0 +1,36 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+#quote-box {
+  justify-content: end;
+  display:flex;
+  flex-wrap: wrap;
+  border: 1px solid black ;
+  padding: 30px;
+  max-width: 200px;
+  border-radius: 30px;
+}
+#text{
+  text-align: justify;
+  font-size: 20px;
+}
+#author {
+  background-color: #333;
+  color: white;
+  margin: 5px 0px 10px 0px;
+  font-size: 12px;
+  letter-spacing: 3px;
+  padding: 0 7px;
+}
+#new-quote {
+  border: none;
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+}
