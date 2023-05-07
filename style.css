@@ -7,11 +7,13 @@
 }
 #quote-box {
   justify-content: end;
+  align-content: center;
   display:flex;
   flex-wrap: wrap;
   border: 1px solid black ;
   padding: 30px;
-  max-width: 200px;
+  width: 200px;
+  height: 260px;
   border-radius: 30px;
 }
 #text{
@@ -33,4 +35,14 @@
   width: 100%;
   padding: 5px;
   border-radius: 10px;
+  transition-duration: 0.5s;
+}
+#img {
+margin: 20px 0px;
+}
+
+#new-quote:hover {
+  background-color: white;
+  color: black;
+  letter-spacing: 5px;
 }
